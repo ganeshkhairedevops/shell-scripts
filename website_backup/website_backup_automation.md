@@ -22,6 +22,11 @@ Create a bash script named `official_backup.sh` on **App Server 3** that:
 
 ---
 
+# login to App Server 3
+```bash
+ssh banner@172.16.238.12
+```
+
 # ⚙ Step 1: Install Required Package
 
 Zip must be installed manually (outside the script).
@@ -56,12 +61,16 @@ Copy public key to Backup Server:
 ```bash
 ssh-copy-id clint@172.16.238.16
 ```
+Enter backup server password
 
 Verify password-less access:
 
 ```bash
 ssh clint@172.16.238.16
 ```
+If no password asked → ✅ correct.
+
+exit back.
 
 ---
 
