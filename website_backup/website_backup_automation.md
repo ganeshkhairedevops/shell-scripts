@@ -86,7 +86,7 @@ Script content:
 #!/bin/bash
 
 # ===============================
-# XfusionCorp Official Backup Script
+# Official Backup Script
 # Server: App Server 3
 # User: banner
 # ===============================
